@@ -14,14 +14,14 @@ This dataset is concerned with the housing prices in the suburbs of Boston. It c
 
 ## Models:
 2-layer neural network models were implemented from scratch in
-(1) Vanilla Pytorch, just for gpu computation, without using its ‘autograd’ and ‘optim’ modules.
-(2) Pure Numpy.
-(3) No libraries.
+1. Vanilla Pytorch, just for gpu computation, without using its ‘autograd’ and ‘optim’ modules.
+2. Pure Numpy.
+3. No libraries.
 
 
 
 ## Results:
 MSE was used as loss and metric. Its value for different approaches was obtained as follows:
-(1) Pytorch (CPU): 42.99, Pytorch (GPU): 36.82
-(2) Numpy: 43.13
-(3) No libraries: 57.87
+1. Pytorch (CPU): 42.99, Pytorch (GPU): 36.82
+2. Numpy: 43.13
+3. No libraries: 57.87
